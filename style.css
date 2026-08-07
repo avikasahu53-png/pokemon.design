@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: 'poppins';
+    src: url('assets/fonts/poppins.bold.ttf') format('truetype');
+     font-weight: 700;  
+    font-style: normal;
+}
+@font-face {
+    font-family: 'inter';
+    src: url('assets/fonts/inter.28pt-bold.ttf') format('truetype');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('assets/fonts/Juturu-Bold.otf') format('opentype');
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.left{
+    position:absolute;
+    top :0px;
+    left: 0px;    z-index: 1;
+
+height: 100%;
+width: 60%;
+background-color:rgb(230, 180, 0) ;
+
+}
+.right{
+    position:absolute;
+    top :0px;
+    right: 0px;
+    z-index: 1;
+height: 100%;
+width: 40%;
+background-color: rgb(243, 229, 171);
+}
+.left .logo{
+    position: relative;
+    width: 200px;
+    left: 25px;
+}
+.pikachu{
+    position: relative;
+    z-index: 2;
+    width: 35%;
+    height:auto;
+    top: 12%;
+    left: 47%;
+    
+    
+}
+.pokeball{
+    position: absolute;
+    bottom: 0px;
+    left: 2%;
+    width: 260px;
+    height: auto;
+    opacity: 0.4;
+
+}
+.generation{
+    position: relative;
+    top: 80px;
+    left: 66px;
+    font-size: medium;
+    letter-spacing: 6px;
+    font-family: poppins;
+    
+}
+h1{
+position: relative;
+top: 100px;
+left: 60px;
+font-size: 180px;
+font-family:inter ;
+}
+.info{
+    position: relative;
+    top: 110px;
+    left: 60px;
+    font-family:montserrat ;
+    font-size: 20px;
+    font-weight:400;
+    word-spacing: 6px;
+}
+.menu {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    z-index: 10;
+    font-size: 60px;
+    color: black;
+}
+
+
