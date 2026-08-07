@@ -85,12 +85,12 @@ h1{
 position: relative;
 top: 80px;
 left: 60px;
-font-size: 180px;
+font-size: 160px;
 font-family:inter ;
 }
 .info{
     position: relative;
-    top: 80px;
+    top: 70px;
     left: 60px;
     font-family:montserrat ;
     font-size: 20px;
